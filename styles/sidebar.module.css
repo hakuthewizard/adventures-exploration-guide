@@ -11,6 +11,7 @@
    border:1px solid #007B3E;
   
    border-radius:16px;
+   
    height:fit-content;
 
 
@@ -117,6 +118,7 @@
     }
     .sidebar {
         width: 200px;
+        overflow-x: hidden;
     }
     .sidebarlink {
         font-size:1rem;

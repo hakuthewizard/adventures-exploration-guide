@@ -9,8 +9,13 @@ import Head from 'next/head';
 
 const Home = () => {
   return (
+    
     <div className={styles.mainContainer}>
-<Head><title>Adventures and Exploration Guide</title></Head>
+      
+     
+<Head>
+<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+<title>Adventures and Exploration Guide</title></Head>
        <Navbar/>
        <div className={styles.content}>
        <VisualLandingPage/>
