@@ -1,0 +1,133 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    font-family: Apercu;
+   width:fit-content;
+   margin-top:1rem;
+   background-color: #fff;
+   padding:12px;
+   border:1px solid #007B3E;
+  
+   border-radius:16px;
+   height:fit-content;
+
+
+}
+.sidebarlink {
+    all:unset;
+    background-color: #F1F1F1;
+    width: fit-content;
+    height: fit-content;
+    color: #007B3E;
+    font-family: Apercu;
+    padding: 12px;
+    justify-content: flex-start;
+    display:flex;
+    gap:4px;
+    border-radius: 12px;
+    font-size:20px;
+    width:250px;
+   
+
+
+    
+}
+.current {
+    background-color: #FFD700;
+}
+.sidebarlink:hover {
+    background-color:#FFD700;
+    cursor:pointer;
+}
+.icons {
+    width:24px;
+    height:24px;
+    padding-right:0.5rem;
+
+}
+.events {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: Apercu;
+   width:fit-content;
+   margin-top:0.7rem;
+   background-color: #fff;
+   padding-right:6px;
+   padding-left: 6px;
+   padding-top:0;
+   border-radius:16px;
+ 
+}
+.title {
+    padding:0;
+    font-weight: bold;
+    font-family: Apercu;
+    color:#007B3E;
+    display:flex;
+   align-items: center;
+}
+.eventslist {
+    padding-inline-start: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        margin-top:6px;
+        font-family: Apercu;
+       width:fit-content;
+   
+       background-color: #fff;
+        
+       height:fit-content;
+ 
+}
+.eventitem {
+    list-style: none;
+    all:unset;
+    background-color: #F1F1F1;
+    width: fit-content;
+    height: fit-content;
+    color: #007B3E;
+    font-family: Apercu;
+    padding: 12px;
+    justify-content: flex-start;
+    display:flex;
+    border-radius: 12px;
+    font-size:16px;
+    width:250px;
+}
+.eventitem:hover {
+    background-color:#c8c8c8;
+    cursor: pointer;
+}
+.eventsicon {
+    width:40px;
+    height: 40px;
+    padding-right:0.5rem;
+}
+@media (max-width: 768px) {
+    .sidevents {
+        display: flex;
+        flex-direction: row; /* Stack events and sidebar on top of each other on smaller screens */
+    justify-content: center;
+    padding-bottom: 1rem;
+    }
+    .sidebar {
+        width: 200px;
+    }
+    .sidebarlink {
+        font-size:1rem;
+        width:180px;
+    }
+    .events {
+        width:200px;
+        font-size:1rem;
+    }
+    .eventitem {
+        width: 180px;
+        font-size:0.8rem;
+    }
+}

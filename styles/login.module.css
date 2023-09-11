@@ -1,0 +1,86 @@
+.loginPage {
+   background-color: #F1F1F1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+  font-family: Apercu;
+}
+
+.loginForm {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Apercu;
+    background-color: #fff;
+    width:300px;
+    padding:16px;
+    padding-top:0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 1px solid #007B3E;
+    border-radius: 12px;
+
+}
+.loginForm > input {
+  width:250px;
+  padding:6px;
+  border: 1px solid #007B3E;
+  border-radius: 4px;
+  margin:0.5rem;
+}
+.leftSide {
+  display:flex;
+  flex-direction: column;
+  margin-right:2rem;
+  color:#007B3E;
+  justify-content: center;
+  align-items: center;
+  
+}
+.leftSide > h1 {
+  margin-bottom:0;
+}
+.leftSide > p {
+  margin-bottom:0.9rem;
+}
+.formBtn {
+  all:unset;
+  width: 250px;
+  justify-content: center;
+  display: flex;
+  background-color: #007B3E;
+  color: #fff;
+  padding:6px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  margin:8px;
+
+}
+.mainimg {
+  border-radius:12px;
+  width:auto;
+  height: 599px;
+  opacity: 0.9;
+
+}
+@media (max-width: 768px) {
+  /* Adjust .mainContainer padding for smaller screens */
+  .loginPage {
+      display: flex;
+      flex-direction: column;
+      padding-top:1rem;
+      padding: 0;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+     text-align: center;
+  }
+  .mainimg{
+    visibility: hidden;
+    position:absolute;
+  }
+
+
+}

@@ -1,0 +1,29 @@
+.dropdown {
+    margin-top:1rem;
+   
+}
+
+.dropdown > select{
+    position: absolute;
+    background-color: #fff;
+    width: 150px;
+    height: 40px;
+    align-items: center;
+    border-radius: 12px;
+    border: 1.2px solid  #007B3E;
+    font-family: Apercu;
+    color:#007B3E;
+    padding: 0.5rem;
+    font-size: 16px;
+    margin-left:24px;
+    
+}
+
+.dropdown > select> option  {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 150px;
+    height: 50px;
+    padding-left:24px;
+}
